@@ -6,4 +6,4 @@ docker-compose build
 docker-compose up
 ```
 
-# Open http://localhost:8080/struts2-bug>
+# Open http://localhost:8080/struts2-bug
