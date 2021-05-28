@@ -17,5 +17,16 @@
 		<jsp:attribute name="placeholder">THIS TEXT FIELD SHOULDN'T HAVE VALUE</jsp:attribute>
 	</s:textfield>
 
+	<h1>ID param not working !</h1>
+
+	<s:checkbox key="check" id="workingId">
+		<s:param name="title">Title works</s:param>
+	</s:checkbox>
+	
+	<s:checkbox key="check">
+		<s:param name="id" value="NOT_WORKING_ID"></s:param>
+		<s:param name="title">Title is working but id is'nt</s:param>
+	</s:checkbox>
+
 </body>
 </html>
